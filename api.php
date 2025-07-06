@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Modules\Product\Controllers\ProductController;
+use App\Modules\Product\Controllers\BlogController;
 
-Route::prefix('products')->middleware('api')->group(function () {
-    Route::get('/', [ProductController::class, 'index']);
-    Route::post('/', [ProductController::class, 'store']);
+Route::prefix('blogs')->middleware('api')->group(function () {
+    Route::get('/', [BlogController::class, 'index']);
+    Route::post('/', [BlogController::class, 'store']);
 });
