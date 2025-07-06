@@ -4,7 +4,7 @@ namespace App\Modules\Blog\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Modules\Blogs\Models\Blog;
+use App\Modules\Blog\Models\Blog;
 
 class BlogController extends Controller
 {
